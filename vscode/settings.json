@@ -1,0 +1,26 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "search.exclude": {
+        "**/.git": true,
+        "**/node_modules": true,
+        "h2w": true,
+        "misty/dist*": true,
+        "**/coverage": true,
+        "**/build": true
+    },
+    "files.associations": {
+        "*.tpl": "html"
+    },
+    "jslint.options": {
+        "white": true
+    },
+    "editor.renderWhitespace": "all",
+    "editor.fontFamily": "DejaVu Sans Mono",
+    "editor.fontSize": 12.5,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "eslint.autoFixOnSave": true,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": false,
+    "editor.quickSuggestions": true,
+    "editor.snippetSuggestions": "top",
+}
