@@ -22,5 +22,6 @@
     "editor.tabSize": 4,
     "editor.insertSpaces": false,
     "editor.quickSuggestions": true,
+    "editor.suggestOnTriggerCharacters": false,
     "editor.snippetSuggestions": "top",
 }
