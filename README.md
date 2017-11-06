@@ -3,32 +3,9 @@
 Some dotfiles exists here.
 
 ## Run after initial setup
-
-**Disable second touchpad driver** |
-So `synclient` works
-
-Add to bottom of `/usr/share/X11/xorg.conf.d/51-synaptics-quirks.conf`
-
-```
-# Disable generic Synaptics device, as we're using
-# "DLL0704:01 06CB:76AE Touchpad"
-# Having multiple touchpad devices running confuses syndaemon
-Section "InputClass"
-        Identifier "SynPS/2 Synaptics TouchPad"
-        MatchProduct "SynPS/2 Synaptics TouchPad"
-        MatchIsTouchpad "on"
-        MatchOS "Linux"
-        MatchDevicePath "/dev/input/event*"
-        Option "Ignore" "on"
-EndSection
-```
-
-Add under `Identifier "touchpad catchall"
-
-```
-        Option  "VertScrollDelta" "-27"
-        Option  "PalmDetect" "1"
-```
+  * Install xorg-xserver-input-libinput -- this uninstalls synaptics, but synaptics sucks anyway.
+  * Add to /usr/share/X11/xorg.conf.d/90-libinput.conf
+    * `Option "Tapping" "1"` and `Option "NaturalScrolling" "1"`
 
 **Increase file watch limit (for dropbox and grunt)**
 
