@@ -1,4 +1,3 @@
-// Place your settings in this file to overwrite the default settings
 {
     "search.exclude": {
         "**/.git": true,
@@ -6,7 +5,9 @@
         "h2w": true,
         "misty/dist*": true,
         "**/coverage": true,
-        "**/build": true
+        "**/build": true,
+        "**/bethesda": true,
+        "**/mongotest": true
     },
     "files.associations": {
         "*.tpl": "html"
@@ -16,12 +17,22 @@
     },
     "editor.renderWhitespace": "all",
     "editor.fontFamily": "DejaVu Sans Mono",
-    "editor.fontSize": 12.5,
+    "editor.fontSize": 16,
     "editor.multiCursorModifier": "ctrlCmd",
     "eslint.autoFixOnSave": true,
     "editor.tabSize": 4,
     "editor.insertSpaces": false,
-    "editor.quickSuggestions": true,
+    "editor.quickSuggestions": false,
+    "editor.parameterHints": false,
+    "editor.autoClosingBrackets": false,
     "editor.suggestOnTriggerCharacters": false,
     "editor.snippetSuggestions": "top",
+    "editor.rulers": [80,120],
+
+    "typescript.autoImportSuggestions.enabled": false,
+
+    "html.autoClosingTags": false,
+    "window.zoomLevel": 0,,
+
+    "terminal.integrated.fontSize": 16,
 }
