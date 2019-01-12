@@ -2,7 +2,6 @@
     "search.exclude": {
         "**/.git": true,
         "**/node_modules": true,
-        "h2w": true,
         "misty/dist*": true,
         "**/coverage": true,
         "**/build": true,
@@ -22,17 +21,26 @@
     "eslint.autoFixOnSave": true,
     "editor.tabSize": 4,
     "editor.insertSpaces": false,
-    "editor.quickSuggestions": false,
-    "editor.parameterHints": false,
-    "editor.autoClosingBrackets": false,
-    "editor.suggestOnTriggerCharacters": false,
     "editor.snippetSuggestions": "top",
+    "editor.quickSuggestions": {
+        "other": false,
+        "comments": false,
+        "strings": false
+    },
+    "editor.quickSuggestionsDelay": 50000,
+    "editor.wordBasedSuggestions": false,
+    "editor.autoClosingBrackets": true,
+    "editor.suggestOnTriggerCharacters": false,
     "editor.rulers": [80,120],
 
     "typescript.autoImportSuggestions.enabled": false,
 
     "html.autoClosingTags": false,
-    "window.zoomLevel": 0,,
+    "window.zoomLevel": 0,
 
     "terminal.integrated.fontSize": 16,
+    "git.autofetch": true,
+    "editor.hover.enabled": false,
+    "editor.parameterHints.enabled": false,
+    "files.trimTrailingWhitespace": true,
 }
