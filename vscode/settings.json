@@ -28,7 +28,6 @@
     "editor.rulers": [80,120],
 
     "html.autoClosingTags": false,
-    "window.zoomLevel": 1,
     "git.autofetch": true,
     "editor.hover.enabled": false,
     "editor.parameterHints.enabled": true,
@@ -51,5 +50,6 @@
         "**/node_modules/*/**": true
     },
     "workbench.sideBar.location": "right",
-    "files.hotExit": "off"
+    "files.hotExit": "off",
+    "workbench.editor.untitled.hint": "hidden"
 }
