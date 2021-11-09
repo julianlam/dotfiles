@@ -52,5 +52,6 @@
     "workbench.sideBar.location": "right",
     "files.hotExit": "off",
     "workbench.editor.untitled.hint": "hidden",
+    "workbench.startupEditor": "none",
     "terminal.integrated.defaultProfile.linux": "tmux"
 }
