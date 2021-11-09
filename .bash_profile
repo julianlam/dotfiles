@@ -4,4 +4,5 @@ export PS1="\u@\h \[\033[32m\]\w\[\033[33m\]\$(__git_ps1 ' (%s)')\[\033[00m\] $ 
 
 source ~/.bash_aliases
 
-export PATH="/home/julian/scripts:$(yarn global bin):$PATH"
+export PATH="/home/julian/scripts:$(yarn global bin):$HOME/.local/bin:$PATH"
+export LESS=R
