@@ -1,12 +1,13 @@
 {
     "search.exclude": {
         "**/.git": true,
-        "**/node_modules": true,
+        "**/node_modules*": true,
         "misty/dist*": true,
         "**/coverage": true,
         "**/build": true,
         "**/bethesda": true,
-        "**/mongotest": true
+        "**/mongotest": true,
+        "webpack5*": true
     },
     "files.associations": {
         "*.tpl": "html"
