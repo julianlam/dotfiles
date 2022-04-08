@@ -5,7 +5,6 @@
         "misty/dist*": true,
         "**/coverage": true,
         "**/build": true,
-        "**/bethesda": true,
         "**/mongotest": true,
         "webpack5*": true
     },
@@ -28,9 +27,10 @@
     "editor.quickSuggestionsDelay": 50000,
     "editor.wordBasedSuggestions": false,
     "editor.suggestOnTriggerCharacters": false,
-    "editor.rulers": [80,120],
-
-    "html.autoClosingTags": false,
+    "editor.rulers": [
+        80,
+        120
+    ],
     "git.autofetch": true,
     "editor.hover.enabled": false,
     "editor.parameterHints.enabled": true,
@@ -56,5 +56,6 @@
     "files.hotExit": "off",
     "workbench.editor.untitled.hint": "hidden",
     "workbench.startupEditor": "none",
-    "terminal.integrated.defaultProfile.linux": "tmux"
+    "terminal.integrated.defaultProfile.linux": "tmux",
+    "html.autoCreateQuotes": false
 }
