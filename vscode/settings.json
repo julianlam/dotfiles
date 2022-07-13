@@ -57,5 +57,7 @@
     "workbench.editor.untitled.hint": "hidden",
     "workbench.startupEditor": "none",
     "terminal.integrated.defaultProfile.linux": "tmux",
-    "html.autoCreateQuotes": false
+    "html.autoCreateQuotes": false,
+    "git.enableSmartCommit": true,
+    "terminal.integrated.enableMultiLinePasteWarning": false
 }
