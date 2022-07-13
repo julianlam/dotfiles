@@ -6,3 +6,5 @@ source ~/.bash_aliases
 
 export PATH="/home/julian/scripts:$(yarn global bin):$HOME/.local/bin:$PATH"
 export LESS=R
+
+tmux new -A -s $HOSTNAME
