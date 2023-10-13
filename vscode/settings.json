@@ -52,12 +52,11 @@
         "**/.git/subtree-cache/**": true,
         "**/node_modules/*/**": true
     },
-    "workbench.sideBar.location": "right",
     "files.hotExit": "off",
-    "workbench.editor.untitled.hint": "hidden",
     "workbench.startupEditor": "none",
     "terminal.integrated.defaultProfile.linux": "tmux",
     "html.autoCreateQuotes": false,
     "git.enableSmartCommit": true,
-    "terminal.integrated.enableMultiLinePasteWarning": false
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "workbench.editor.empty.hint": "hidden"
 }
