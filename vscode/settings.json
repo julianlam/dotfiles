@@ -53,7 +53,13 @@
     },
     "files.hotExit": "off",
     "workbench.startupEditor": "none",
-    "terminal.integrated.defaultProfile.linux": "tmux",
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "/usr/bin/tmux",
+            "args": ["new", "-A", "-s", "vscode"]
+        }
+    },
     "html.autoCreateQuotes": false,
     "git.enableSmartCommit": true,
     "terminal.integrated.enableMultiLinePasteWarning": false,
