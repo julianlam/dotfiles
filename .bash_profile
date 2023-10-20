@@ -8,5 +8,6 @@ source ~/.bash_aliases
 
 export PATH="/home/julian/scripts:$(yarn global bin):$HOME/.local/bin:$PATH"
 export LESS=R
+export EDITOR=/usr/bin/vi
 
 tmux new -A -s $HOSTNAME
